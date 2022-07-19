@@ -1,0 +1,13 @@
+<div class="search-container">
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+      <span class="logo" routerLink="/">JoshuaGameDB</span>
+      <input
+        class="search-input"
+        name="search"
+        ngModel
+        placeholder="500,000+ game library"
+      />
+      <button class="search-button">Find</button>
+    </form>
+  </div>
+  
